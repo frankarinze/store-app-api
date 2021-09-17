@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/image",
+      "handler": "image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/image",
+      "handler": "image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/image",
+      "handler": "image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

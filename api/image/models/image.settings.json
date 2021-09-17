@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "images",
+  "info": {
+    "name": "image",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
