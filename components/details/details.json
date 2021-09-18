@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_details_details",
+  "info": {
+    "name": "details",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "dimension": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dimension.dimension"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

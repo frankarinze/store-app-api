@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dimension_dimensions",
+  "info": {
+    "name": "dimension",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    }
+  }
+}
