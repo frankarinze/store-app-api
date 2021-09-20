@@ -10,8 +10,11 @@ module.exports = ({ env }) => ({
         database: env("DATABASE_NAME", "d85irpskedu5th"),
         username: env("DATABASE_USERNAME", "wmivnptjwfwwiq"),
         password: env("DATABASE_PASSWORD", "b41eb16eb87c905e0c56d335b7ea9c83b3a2deef81bb292f2663809104ce80fd"),
-        schema: env("DATABASE_SCHEMA", "public")
-        
+        schema: env("DATABASE_SCHEMA", "public"),
+        ssl: {
+          rejectUnauthorized: false
+        }
+
       },
       options: {},
     },
